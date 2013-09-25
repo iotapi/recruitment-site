@@ -1,0 +1,19 @@
+/* Style for recruitment-site */
+
+body {
+   padding-top:20px;
+   padding-bottom:20px;
+}
+
+.hero-unit {
+   background:#4169e1;
+}
+
+.hero-unit h1 {
+   color:white;
+}
+
+.container-narrow {
+   margin: 0 auto;
+   max-width:750px;
+}
