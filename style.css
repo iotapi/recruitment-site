@@ -4,16 +4,36 @@ body {
    padding-top:20px;
    padding-bottom:20px;
 }
+/*
+header {
+   position:fixed;
+}*/
 
 .hero-unit {
    background:#4169e1;
 }
 
-.hero-unit h1 {
+.hero-unit h1, h4 {
    color:white;
 }
 
 .container-narrow {
    margin: 0 auto;
    max-width:750px;
+}
+
+.spacer {
+   height:70px;
+}
+
+.image {
+   border-radius:10px;
+}
+
+#footer {
+   height:110px;
+}
+
+#letter_link {
+   text-decoration:none;
 }
