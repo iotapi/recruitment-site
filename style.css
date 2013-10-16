@@ -1,13 +1,22 @@
 /* Style for recruitment-site */
 
 body {
-   padding-top:20px;
+   /*padding-top:20px;*/
    padding-bottom:20px;
 }
-/*
+
 header {
+   top:0;
+   padding-top:20px;
+   width:100%;
    position:fixed;
-}*/
+   background:white;
+   border-bottom:1px solid #eeeeee;
+}
+
+#big_unit {
+   margin-top:100px;
+}
 
 .hero-unit {
    background:#4169e1;
@@ -27,7 +36,7 @@ header {
 }
 
 .image {
-   border-radius:10px;
+   border-radius:3%;
 }
 
 #footer {
@@ -36,4 +45,15 @@ header {
 
 #letter_link {
    text-decoration:none;
+}
+
+.caption {
+   margin: 3px;
+   font-size:0.8em;
+   text-align: center;
+}
+
+#music {
+   padding-top:25px;
+   border-radius:8%;
 }
